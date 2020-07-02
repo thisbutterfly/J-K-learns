@@ -1,0 +1,65 @@
+/* Universal Selector */
+* {
+  /* color: purple; */
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  /* background-color: lawngreen; */
+  /* background-image: url('./background.png');
+    background-repeat: no-repeat; */
+  /* background-position: right top; */
+}
+/* 
+fixed
+relative
+absolute
+sticky
+ */
+
+.menu-bar {
+  background-color: coral;
+  /* width: 100%; */
+  /* position: fixed; */
+}
+/* @media screen and (max-width: 768px) {
+  .menu-bar {
+          background-color: blue;
+  }
+} */
+
+.menu-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.element-list {
+  padding: 10px;
+  margin: 5px;
+  border: 2px solid red;
+  font-size: 16px;
+}
+
+.element-list:hover {
+  color: white;
+  background: blue;
+  transition: all 0.3s ease-in;
+}
+
+/* ID selector */
+#intro {
+  color: blue;
+  font-size: 26px;
+}
+
+/* Element Selector */
+p {
+  text-align: center;
+}
+
+/* Descendant Selector */
+ol li {
+  font-size: 30px;
+}
