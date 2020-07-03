@@ -1,0 +1,18 @@
+.box{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+}
+
+@keyframes example{
+    0%{background-image: url('https://images.pexels.com/photos/68147/waterfall-thac-dray-nur-buon-me-thuot-daklak-68147.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'); left: 0px; top: 0px}
+    25%{background-image:url('./img2.jpeg') ; left: 200px; top:0px;}
+    50%{background-image:url('./img3.jpeg'); left: 200px; top:200px;}
+    75%{background-image:url('./img4.jpg') ; left: 0px; top:200px;}
+    100%{background-image:url('./img5.jpg'); left: 0px; top:0px;}
+}
