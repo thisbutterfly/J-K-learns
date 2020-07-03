@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+    <body>
+        <h1>Example One</h1>
+
+        <button type="button" onclick="myFunction()">
+            Click Me.
+        </button>
+
+        <p class="trigger"></p>
+        <p class="trigger"></p>
+        <p class="trigger"></p>
+
+        <script>
+            function myFunction(){
+                var a = document.getElementsByClassName('trigger');
+                a[0].innerHTML = "Hello World"
+            }
+        </script>
+    </body>
+</html>
